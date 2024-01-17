@@ -6,251 +6,226 @@ html,body {
     overflow-x: hidden; 
 }
 
-header{
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url(netfixdisplay.jpg);
-    background-color: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%); 
-    height: 700px;
-}
-#logo{
-    width: 150px;
-    position: relative;
-    top: 50px;
-    z-index: 10px;
-    left: 50px;
-}
-
-#lang{
-    color: #feffff;
-    position: relative;
-    height: 35px;
-    width:40px;
-    left: 950px;
-    top: 10px;
-    background-color: #0000008e;
-    border-radius: 10% 0% 0% 10%;
-    color: #feffff;
-}
-
-#langicon1{
-    position: absolute;
-    top:5px;
-    left:5px;
-    z-index: 10px;
-    color: rgba(250, 250, 250, 0.7);
-}
-
-#langicon2{
-    position: absolute;
-    top: 12px;
-    left:12px;
-    z-index: 30px;
-    color: rgb(255, 255, 255);
-}
-
-
-#langdropdown{  
-    position: relative;
-    z-index: 10px ;
-    left: 990px;  
-    top: -25px;
-    height: 35px;
-    width: 95px;
-    border-radius: 0% 10% 10% 0%;
-    background-color: #0000008e;
-    color: #feffff;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-}
-
-#signinbutton{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #feffff;
-    background-color: #e50914 ;
-    border-radius: 10%;
-    position: relative;
-    top: -27px;
-    left: 1020px; 
-    width: 85px;
-    height: 35px;
-}
-
-#block{
-    height: 300px;
-    width: 850px;
-    color: white;
+#head{
+    background-color: #9A8F97;
+    color: #343a40;
+    height: 50px;
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
+}
+
+#profileicon{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+#profileid{
+    position: relative;
+    top: 10px;
+    left: 15px;
+    font-size: 30px;
+}
+
+#profiledescription{
+    position: relative;
+    top: 10px;
+    left: 15px;
+    font-size: 20px;
+}
+
+#righthead{
+    display: flex;
+    justify-content: space-around;
+    width: 550px;
+}
+
+#Resumeid{
+    border-right: 2px solid #CFDBD5;
+    height: 25px;
+    width: 70px;
+    position: relative;
+    top: 10px;    
+}
+
+#Resumelink{
+    text-decoration: none; 
+    font-size: 20px;
+    color: #343a40; 
+}
+
+#Projectsid{
+    border-right: 2px solid #CFDBD5;
+    height: 25px;
+    width: 70px;
+    position: relative;
+    top: 10px;
+}
+
+#Projectlink{
+    text-decoration: none;
+    font-size: 20px;
+    color: #343a40;
+}
+
+#Outreachid{
+    border-right: 2px solid #CFDBD5;
+    height: 25px;
+    width: 80px;
+    position: relative;
+    top: 10px;
+}
+
+#Outreachlink{
+    text-decoration: none;
+    font-size: 20px;
+    color: #343a40;
+}
+
+#Personalid{
+    border-right: 2px solid #CFDBD5;
+    height: 25px;
+    width: 80px;
+    position: relative;
+    top: 10px;
+}
+
+#Personallink{
+    text-decoration: none;
+    font-size: 20px;
+    color: #343a40;
+}
+
+#bodyid{
+    background-color: #C3BABA;
+    color: #343a40;
+    height: 629px;
+    position: relative;
+}
+
+#imageblock{
+    width: 400px;
     position: relative;
     top: 150px;
-    left: 325px;
+    left: 250px;
+}
+#image{
+    border-radius: 49%;
+    width:300px;
 }
 
-#Heading{
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    position: relative;
-    left: 50px;
-}
-
-#Subheading{
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    position: relative;
-    left: 180px;
-}
-
-#text{
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    position: relative;
-    left: 80px;
-}
-
-#inp{
-    position: relative;
-    left: 170px;
-}
-
-#inpemail{
-    height: 50px;
+#description{
+    display: flex;
+    flex-direction: column;
     width: 350px;
-    background-color: rgba(0, 0, 0, 0.708);
-    border-radius: 8px;
-    color: #feffff;
-}
-
-#Getstart{
-    height: 56px;
-    width: 150px;
-    background-color: #e50914 ;
-    color: #feffff;
-    border-radius: 8px;
-}
-#space{
-    border: 5px solid #232323;
-}
-.contentdescription1{
-    background-color: #000000;
-    height: 600px;
-    color: #feffff;
-}
-
-.contentdescription2{
-    background-color: #000000;
-    height: 600px;
-    color: #feffff;
-}
-
-.img1{
-    width: 500px;
+    height: 170px;
     position: relative;
-    top: 100px;
-    left: 950px;
+    top: -180px;
+    left: 600px;
 }
 
-.img2{
-    width: 500px;
-    position: relative;
-    top: 100px;
+#profilename{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
 }
 
-.Headid{
-    width: 550px;
-    height: 100px;
-    font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-    position: relative;
-    left: 800px;
-    top: -250px;
+#deschead{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
 }
 
-.Descid{
-    width: 550px;
-    height: 200px;
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    position: relative;
-    left: 800px;
-    top: -200px;
+#desc{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
 }
 
-.Headid1{
-    width: 550px;
-    height: 100px;
-    font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-    position: relative;
-    left: 100px;
-    top: -250px;
-}
-
-.Descid1{
-    width: 550px;
-    height: 200px;
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    position: relative;
-    left: 100px;
-    top: -200px;
-}
-
-#faq{
-    color: #feffff;
-    background-color: #000000;
-    height: 750px;
+#buttons{
+    width: 500px;  
+    height: 70px;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between; 
+    position: relative;
+    top: -150px;
+    left: 600px;
+}
+
+.button{
+    border: 5px solid black;
+    border-radius: 49%;
+    width: 125px;
+    height: 125px;
     text-align: center;
-    
 }
 
-#faqhead{
-    height: 100px;
-    font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-    width:1100px;
+.text{
+    color: #000;
     position: relative;
-    top: 30px;
-    left: 200px;    
+    top: 50px;
+    font-size: 20px;
+}
+#Resume{
+    background-color: #bada52;
 }
 
-#queslist{
-    height: 550px;
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 1100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    position: relative;
-    left: 200px;
+a{
+    text-decoration: none;
 }
 
-.ques{
-    height: 75px;
-    background-color: #2d2d2d;
-    display: flex;
-    justify-content: space-between;
+#Resume:hover{
+    -webkit-box-shadow:0 0 30px #95c200; 
+    -moz-box-shadow: 0 0 30px #95c200; 
+    box-shadow:0 0 30px #95c200;
+}
+
+#Resume:active{
+    background-color:burlywood;
+}
+
+#Project{
+    background-color: #eda200;
+}
+
+#Project:hover{
+    -webkit-box-shadow:0 0 30px #004bed; 
+    -moz-box-shadow: 0 0 30px #004bed; 
+    box-shadow:0 0 30px #004bed;
+}
+
+#Project:active{
+    background-color: #4cb0d2;
+}
+
+#Personal{
+    background-color: #b39cd1;
+}
+
+#Personal:hover{
+    -webkit-box-shadow:0 0 30px #1adc6e; 
+    -moz-box-shadow: 0 0 30px #1adc6e; 
+    box-shadow:0 0 30px #1adc6e;
+}
+
+#Personal:active{
+    background-color:darkkhaki;
 }
 
 #foot{
-    background-color: #000000;
-    color: #feffff;
+    background-color: #736f72;
+    height: 50px;
+    color: #CFDBD5;
     display: flex;
-    flex-direction: column;
-    height: 250px;
+    justify-content: space-around;
 }
 
-#list{
-    display: flex;
-    flex-direction: row;
-    height: 200px;
-    justify-content: space-evenly;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+.info{
+    position: relative;
+    top: 10px;
+    color: #343a40;
 }
 
-#copyright{
-    text-align: center;
+.infolink{
+    position: relative;
+    top: -3px;
+    text-decoration: none;
+    color: #343a40;
 }
